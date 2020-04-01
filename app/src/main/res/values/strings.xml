@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Pametnozodpadki</string>
+    <string name="app_name">Pametno z odpadki</string>
+    <string name="smart_waste_management">Smart Waste Management</string>
+    <string name="swm_logo">SWM_logo</string>
+    <string name="navodila_za_uporabo">Navodila za uporabo</string>
+    <string name="o_aplikaciji">O aplikaciji</string>
+    <string name="slikaj_in_lo_uj">Slikaj in ločuj</string>
 </resources>
