@@ -5,4 +5,9 @@
     <string name="navodila_za_uporabo">Navodila za uporabo</string>
     <string name="o_aplikaciji">O aplikaciji</string>
     <string name="slikaj_in_lo_uj">Slikaj in ločuj</string>
+    <string name="skeniraj_in_locuj">skeniraj in locuj</string>
+    <string name="vpi_i_odpadek_in_lo_uj">Vpiši odpadek in ločuj</string>
+    <string name="slikaj_odpadek_in_lo_uj">Slikaj odpadek in ločuj</string>
+    <string name="settings">Settings</string>
+    <string name="nastavitve">Nastavitve</string>
 </resources>
