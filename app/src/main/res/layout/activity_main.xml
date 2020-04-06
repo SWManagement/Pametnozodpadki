@@ -37,6 +37,7 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/btn_rounded"
         android:backgroundTint="#4CAF50"
+        android:onClick="VpisiLocuj"
         android:soundEffectsEnabled="true"
         android:text="@string/vpi_i_odpadek_in_lo_uj"
         android:textAlignment="center"
