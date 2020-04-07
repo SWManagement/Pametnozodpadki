@@ -11,9 +11,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
     public static final String TAG = "Main Activity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
     }
-//    Vpisi in locuj
-    public void VpisiLocuj(View view){
-        Intent intent = new Intent(this, VpisiLocujActivity.class);
+//    Locevanje
+    public void goLocevanje(View view){
+        Intent intent = new Intent(this, LocevanjeActivity.class);
         startActivity(intent);
     }
 
@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 //        Action based on toolbar Item selected
         if (item.getItemId() == R.id.settings_btn) {
-            Log.d(TAG, "Settings pressed");
+            Intent intent = new Intent(this, SettingsActivity.class);
+            startActivity(intent);
             return true;
         }
         return super.onOptionsItemSelected(item);

@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="257dp"
-        android:layout_height="242dp"
+        android:layout_width="295dp"
+        android:layout_height="313dp"
         android:layout_marginTop="10dp"
         android:contentDescription="@string/swm_logo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,48 +32,36 @@
     <Button
         android:id="@+id/vpisi_btn"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="256dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="258dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/btn_rounded"
         android:backgroundTint="#4CAF50"
-        android:onClick="VpisiLocuj"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="goLocevanje"
         android:soundEffectsEnabled="true"
-        android:text="@string/vpi_i_odpadek_in_lo_uj"
+        android:text="@string/start_button"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="@+id/skeniraj_btn"
-        app:layout_constraintStart_toStartOf="@+id/skeniraj_btn"
-        app:layout_constraintTop_toBottomOf="@+id/Navodila_btn" />
-
-    <Button
-        android:id="@+id/skeniraj_btn"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="256dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/btn_rounded"
-        android:backgroundTint="#4CAF50"
-        android:soundEffectsEnabled="true"
-        android:text="@string/slikaj_odpadek_in_lo_uj"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/info_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vpisi_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/Navodila_btn"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/Navodila_btn"
         android:layout_width="256dp"
         android:layout_height="54dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/btn_rounded"
         android:backgroundTint="#4CAF50"
         android:text="@string/navodila_za_uporabo"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/vpisi_btn"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/vpisi_btn"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 

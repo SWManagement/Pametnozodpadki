@@ -1,0 +1,13 @@
+<resources>
+    <array name="regije_labels">
+        <item>Osrednjeslovenska</item>
+        <item>Primorska</item>
+        <item>Dolenjska</item>
+        <item>Gorenjska</item>
+        <item>Štajerska</item>
+    </array>
+
+    <array name="regije_values">
+
+    </array>
+</resources>

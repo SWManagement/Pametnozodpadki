@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:title="Preference category">
-
-    </PreferenceCategory>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:key="regija_category"
+        android:title="Izbira regije">
     <SwitchPreference
         android:defaultValue="false"
-        android:key="switch_preference_1"
-        android:title="Switch preference" />
-    <MultiSelectListPreference
-        android:defaultValue="@android:array/emailAddressTypes"
-        android:entries="@android:array/imProtocols"
-        android:entryValues="@android:array/imProtocols"
-        android:key="multi_select_list_preference_1"
-        android:title="Multi select list preference" />
+        android:key="notifications"
+        android:title="Enable message notifications" />
+    <ListPreference
+        android:title="Izbor regije"
+        android:key="regija"
+        android:dialogMessage="Izbira regije">
+<!--        android:entries="@array/regije">-->
+    </ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="help_category"
+        android:title="Pomoč">
+    <Preference
+        android:defaultValue="Default value"
+        android:key="feedback"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Pošlji povratno informacijo"
+        android:summary="Tehnični podpori napišite predlog, vprašanje ali opišite napako."/>
+    </PreferenceCategory>
+
 </PreferenceScreen>
