@@ -8,6 +8,10 @@
     </array>
 
     <array name="regije_values">
-
+        <item>OS</item>
+        <item>PR</item>
+        <item>DO</item>
+        <item>GO</item>
+        <item>ŠT</item>
     </array>
 </resources>

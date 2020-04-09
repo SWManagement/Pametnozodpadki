@@ -5,11 +5,12 @@
         android:key="regija_category"
         android:title="Izbira regije">
         <ListPreference
-        android:title="Izbor regije"
-        android:key="regija"
-        android:dialogMessage="Izbira regije">
-<!--        android:entries="@array/regije">-->
-    </ListPreference>
+            android:defaultValue="OS"
+            android:entries="@array/regije_labels"
+            android:entryValues="@array/regije_values"
+            android:title="Izbor regije"
+            android:key="regija">
+        </ListPreference>
 
     </PreferenceCategory>
 
