@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:key="regija_category"
+        android:title="Izbira regije">
+        <ListPreference
+            android:defaultValue="OS"
+            android:entries="@array/regije_labels"
+            android:entryValues="@array/regije_values"
+            android:title="Izbor regije"
+            android:key="regija">
+        </ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="help_category"
+        android:title="Pomoč">
+    <Preference
+        android:defaultValue="Default value"
+        android:key="feedback"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Pošlji povratno informacijo"
+        android:summary="Tehnični podpori napišite predlog, vprašanje ali opišite napako."/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
