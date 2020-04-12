@@ -21,12 +21,24 @@
     <fragment
         android:id="@+id/fragment2"
         android:name="com.swmanagement2020.pametnozodpadki.Vpisi_fragment"
-        android:layout_width="0dp"
-        android:layout_height="610dp"
+        android:layout_width="411dp"
+        android:layout_height="521dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/trenutnoLocevanje"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <TextView
+        android:id="@+id/trenutnoLocevanje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
