@@ -4,6 +4,32 @@
     <string name="swm_logo">SWM_logo</string>
     <string name="navodila_za_uporabo">Navodila za uporabo</string>
     <string name="o_aplikaciji">O aplikaciji</string>
+    <string name="vsebina_o_aplikaciji">Mobilna aplikacija omogoča uporabnikom, da preverijo,
+                                        v kateri zabojnik sodi odpadek. Uporabnik lahko to stori tako,
+                                        da skenira kodo na embalaži ali ročno vnese ime odpadka,
+                                        nazaj pa prejme povratno informacijo, s pomočjo katere odpadek
+                                        razvrsti v pravi zabojnik.\n\nOdpadki so danes eno izmed ključnih
+                                        področij, s katerimi se ukvarja človeška
+                                        civilizacija in naslavljajo tako razviti kot manj razviti svet.
+                                        Ne samo plastika, zavržena hrana in okolju škodljivi odpadki,
+                                        temveč vse vrste odpadkov vedno bolj ogrožajo človeštvo in njegov
+                                        trajnostni obstoj. V Sloveniji je v letu 2018 nastalo 495 kg odpadkov
+                                        na prebivalca, kar je 17 kg več kot leto prej kar posledično pomeni,
+                                        da je izziv treba resno obravnavati. Poiskati in ponuditi je treba
+                                        različne rešitve, in sicer take, ki bodo omejile količino odpadkov
+                                        še preden nastanejo, rešitve za odpadke, ki vseeno nastajajo,
+                                        ter rešitve za njihovo ločevanje, recikliranje in varno shranjevanje
+                                        na odlagališčih. Ključna je ustrezna osveščenost in informiranje
+                                        prebivalstva, ki lahko s pomočjo pravih informacij pravilno ravna
+                                        z odpadki (ustrezno ločevanje), preprečuje njihov nastanek
+                                        (načrtovano nakupovanje) in deluje "zeleno" (izbira embalaže,
+                                        nakupovalne torbe, kupovanje lokalno ipd.). Po drugi strani pa
+                                        se lahko z ustreznimi motivacijskimi elementi spodbudi ljudi,
+                                        da se do okolja in odpadkov obnašajo bolj odgovorno.\n\nMobilna
+                                        aplikacija Pametno z odpadki je nastala kot del študentskega
+                                        inovativnega projekta za družbeno korist (ŠIPK) na temo
+                                        "Pametno ravnanje z odpadki". Projekt sofinancirata Republika Slovenija
+                                        in Evropska unija iz Evropskega socialnega sklada.</string>
     <string name="start_button">Začni ločevati</string>
     <string name="settings">Settings</string>
     <string name="nastavitve">Nastavitve</string>
