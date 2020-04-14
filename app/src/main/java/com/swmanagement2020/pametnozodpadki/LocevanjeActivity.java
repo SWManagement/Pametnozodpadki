@@ -29,7 +29,7 @@ public class LocevanjeActivity extends AppCompatActivity {
         }
 //      Vzami regijo iz Sharedpreferences na kreacijo tega acitivitya
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String regija = prefs.getString("regija", "" );
+        String regija = prefs.getString("regija", "Osrednjeslovenska" );
         String izpis  = String.format("Trenunto ločuješ v %s regija", regija);
         TextView kjeLocujem = findViewById(R.id.trenutnoLocevanje);
         kjeLocujem.setText(izpis);
