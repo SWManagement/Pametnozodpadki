@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/fragment2"
-        android:name="com.swmanagement2020.pametnozodpadki.Vpisi_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="411dp"
         android:layout_height="521dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,7 +28,10 @@
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/trenutnoLocevanje"
-        app:layout_constraintVertical_bias="0.39" />
+        app:layout_constraintVertical_bias="0.39"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph"
+        />
 
     <TextView
         android:id="@+id/trenutnoLocevanje"
